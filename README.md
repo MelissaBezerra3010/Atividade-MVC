@@ -18,9 +18,9 @@ O Leme consiste no desenvolvimento de um aplicativo web que adota o padrão de a
 
 Certifique-se de ter instalado:
 
-* \[Linguagem de Programação, ex: Node.js\] (Versão: \[X.Y.Z\])
+* \Linguagem de Programação, ex: Node.js\ (Versão: \[X.Y.Z\])
 
-* \[Sistema de Banco de Dados, ex: MySQL Server\]
+* \Sistema de Banco de Dados, ex: MySQL Server\
 
 * Um gerenciador de pacotes (\[ex: npm, pip, Composer\])
 
@@ -41,9 +41,6 @@ Instale todas as bibliotecas e pacotes necessários:
 ```bash
 # Exemplo para Node.js:
 npm install
-
-# Exemplo para Python:
-pip install -r requirements.txt
 ```
 
 ### 4. Configuração do Banco de Dados
@@ -82,5 +79,6 @@ INSERT INTO atividades (titulo, descricao, materia, data_entrega) VALUES ('Revis
 
 SELECT * FROM atividades; 
 ```
+
 
 
