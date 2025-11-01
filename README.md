@@ -1,14 +1,8 @@
-# ☸️ Formulário com MVC - O Leme
+# Formulário com MVC - O Leme ☸️
 
 ## 📃 Descrição do Projeto e Propósito
 
-O projeto consiste no desenvolvimento de um aplicativo web que adota o padrão de arquitetura **Model-View-Controller (MVC)**. O objetivo é demonstrar a implementação completa de operações **CRUD (Create, Read, Update, Delete)** em um recurso específico (e.g., Gerenciamento de Usuários, Produtos, Tarefas, etc.), garantindo a persistência dos dados em um banco de dados relacional.
-
-A arquitetura MVC foi escolhida para:
-
-1. **Separar Responsabilidades:** Distinguir a lógica de dados (`Model`), a interface do usuário (`View`) e o controle de fluxo (`Controller`).
-
-2. **Promover Escalabilidade:** Facilitar a manutenção e a expansão futura do código.
+O Leme consiste no desenvolvimento de um aplicativo web que adota o padrão de arquitetura **Model-View-Controller (MVC)**. O objetivo é demonstrar a implementação completa de operações **CRUD (Create, Read, Update, Delete)** em um recurso específico (Gerenciamento de Usuários, Produtos, Tarefas, etc.), garantindo a persistência dos dados em um banco de dados. A arquitetura MVC foi escolhida para distinguir a lógica de dados (`Model`), a interface do usuário (`View`) e o controle de fluxo (`Controller`).
 
 ## 👥 Membros da Equipe
 
@@ -86,3 +80,4 @@ data_entrega DATE NOT NULL );
 INSERT INTO atividades (titulo, descricao, materia, data_entrega) VALUES ('Revisar Sistema ABO', 'Olhar os slides e fazer anotações no caderno.', 'Biologia', '2025-11-02'), ('Resolver lista de exercícios de Matemática', 'Focar nas questões de geometria analítica.', 'Matemática', '2025-11-05'), ('Ler o livro "A visão das Plantas"', 'Ler até o capítulo 7 para a próxima aula.', 'Português', '2025-11-03');
 
 SELECT * FROM atividades;  
+
