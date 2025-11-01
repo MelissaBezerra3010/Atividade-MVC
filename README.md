@@ -18,11 +18,11 @@ O Leme consiste no desenvolvimento de um aplicativo web que adota o padrão de a
 
 Certifique-se de ter instalado:
 
-* \Linguagem de Programação, ex: Node.js\ (Versão: \[X.Y.Z\])
+* Linguagem de Programação (`ex: Node.js`)
 
-* \Sistema de Banco de Dados, ex: MySQL Server\
+* Sistema de Banco de Dados (`ex: MySQL Server`)
 
-* Um gerenciador de pacotes (\[ex: npm, pip, Composer\])
+* Um gerenciador de pacotes (`ex: npm, pip, Composer`)
 
 ### 2. Clonagem do Repositório
 
@@ -79,6 +79,7 @@ INSERT INTO atividades (titulo, descricao, materia, data_entrega) VALUES ('Revis
 
 SELECT * FROM atividades; 
 ```
+
 
 
 
