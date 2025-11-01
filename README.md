@@ -65,6 +65,7 @@ python app.py
 
 ## 💾 Código SQL
 
+```sql
 CREATE DATABASE calendario_estudos;
 
 USE calendario_estudos;
@@ -79,5 +80,7 @@ data_entrega DATE NOT NULL );
 
 INSERT INTO atividades (titulo, descricao, materia, data_entrega) VALUES ('Revisar Sistema ABO', 'Olhar os slides e fazer anotações no caderno.', 'Biologia', '2025-11-02'), ('Resolver lista de exercícios de Matemática', 'Focar nas questões de geometria analítica.', 'Matemática', '2025-11-05'), ('Ler o livro "A visão das Plantas"', 'Ler até o capítulo 7 para a próxima aula.', 'Português', '2025-11-03');
 
-SELECT * FROM atividades;  
+SELECT * FROM atividades; 
+```
+
 
